@@ -3,3 +3,63 @@ This is just a placeholder blank stylesheet so as to support adding custom style
 
 Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-css-with-themes-assets for more info
 */
+
+:root {
+    --theme: var(--bg);
+    /* Main background */
+    --entry: var(--card-bg);
+    /* Card background */
+    --primary: var(--ink);
+    /* Main text */
+    --secondary: var(--muted);
+    /* Muted text */
+    --tertiary: var(--line);
+    /* Tertiary/border */
+    --content: var(--ink);
+    /* Content text */
+    --code-block-bg: var(--bg);
+    /* Code block background */
+    --code-bg: var(--card-bg);
+    /* Inline code background */
+    --border: var(--line);
+    /* Border color */
+
+    --bg: #faf9f7;
+    --ink: #121212;
+    --muted: #666;
+    --line: #e8e5df;
+    --acc: #ce821e;
+    --acc-hover: #ad6c0a;
+    --card-bg: #fff;
+    --background: rgba(255, 249, 247, .85);
+}
+
+.dark {
+    --theme: var(--bg);
+    /* Main background */
+    --entry: var(--card-bg);
+    /* Card background */
+    --primary: var(--ink);
+    /* Main text */
+    --secondary: var(--muted);
+    /* Muted text */
+    --tertiary: var(--line);
+    /* Tertiary/border */
+    --content: var(--ink);
+    /* Content text */
+    --code-block-bg: var(--bg);
+    /* Code block background */
+    --code-bg: var(--card-bg);
+    /* Inline code background */
+    --border: var(--line);
+    /* Border color */
+
+    --bg: #121212;
+    --ink: #faf9f7;
+    --muted: #999;
+    --line: #333;
+    --acc: #d99735;
+    --acc-hover: #d97b1d;
+    --card-bg: #1e1e1e;
+    --background: rgba(18, 18, 18, .85);
+}
